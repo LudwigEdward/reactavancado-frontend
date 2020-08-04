@@ -5,11 +5,11 @@ import Container from 'components/Container'
 
 import icons from './content'
 import * as S from './styles'
-import { sectionTechProps } from 'types/api'
+import { SectionTechProps } from 'types/api'
 import { getImageUrl } from 'utils/getImageUrl'
 
 type Props = {
-  sectionTech: sectionTechProps
+  sectionTech: SectionTechProps
 }
 
 const SectionTech = ({ sectionTech }: Props) => (
